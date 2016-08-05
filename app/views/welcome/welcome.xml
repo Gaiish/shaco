@@ -1,0 +1,6 @@
+<Page class="page">
+  <StackLayout>
+    <Label text="Welcome to" class="title" />
+    <Label text="Shaco" class="app_name" />
+  </StackLayout>
+</Page>

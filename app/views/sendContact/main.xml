@@ -1,0 +1,7 @@
+<Page>
+  <StackLayout>
+    <Label text="Contact1 :" />
+    <Label text="+25779630300" />
+    <Label text="Swipe or Shake your phone to send it"  />
+  </StackLayout>
+</Page>

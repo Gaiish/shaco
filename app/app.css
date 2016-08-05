@@ -1,0 +1,31 @@
+.title {
+    font-size: 30
+    horizontal-align: center;
+    margin: 20;
+    color: #F4FFE2;
+}
+
+.app_name {
+  font-size: 60;
+  horizontal-align: center;
+  margin: 20;
+  font-family: fantasy;
+  color: #F4FFE2;
+}
+
+.page {
+  background-color: #FF7154;
+}
+/*button {
+    font-size: 42;
+    horizontal-align: center;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    horizontal-align: center;
+    margin: 0 20;
+    text-align: center;
+}
+*/

@@ -1,0 +1,8 @@
+<Page>
+  <Label text="Card or contact and company logo" />
+  <GridLayout columns="auto,auto" rows="auto">
+    <Label text="Receive Contact or Card">
+    <Button text="Yes" col="0" />
+    <Button text="No" col="1" />
+  </GridLayout>
+</Page>

@@ -1,0 +1,11 @@
+<Page>
+  <StackLayout>
+    <GridLayout columns="auto,auto" rows="auto">
+      <Label text="Company Logo" col="1"/>
+      <Label text="name of Owner of the visit Card or App user" col="0" />
+    </GridLayout>
+    <StackLayout>
+      <Label text="swipe to send it or shake the phone" />
+    </StackLayout>
+  </StackLayout>
+</Page>

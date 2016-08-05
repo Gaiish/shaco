@@ -1,0 +1,13 @@
+<Page class="page">
+  <GridLayout columns="auto,auto" rows="auto">
+    <Label text="Profile Pic" row="1" col="0" class="text" />
+    <Label text="Image_logo_company" row="0" col="1" class="text" />
+    <!--<Label text="Name" class="text" row="2" col="0" />
+    <Label text="Office"  row="2" col="1" />
+    <Label text="Occupation" row="3" col="0" />
+    <Label text="Tel number" id="phone" row="3" col="1" />
+    <Label text="Email" id="email" row="4" col="1" />
+    <Button text="Share my visit Card" />
+  -->
+</GridLayout>
+</Page>

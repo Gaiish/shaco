@@ -1,0 +1,12 @@
+<Page>
+  <StackLayout>
+    <TextField text="Name" />
+    <TextField text="Tel number" />
+    <TextField text="Email" />
+    <TextField text="Occupation" />
+    <TextField text="Office address" />
+    <Button text="Company symbol" />
+    <Button text="Country flag" />
+    <Button text="Save" />
+  </StackLayout>
+</Page>

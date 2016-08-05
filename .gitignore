@@ -1,0 +1,6 @@
+node_modules/
+platforms/
+package.json
+app/App_Resources/
+app/package.json
+app/references.d.ts

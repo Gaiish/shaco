@@ -1,0 +1,9 @@
+<Page>
+  <StackLayout>
+    <TextField text="contact" />
+    <Label text="contact n1" />
+    <Label text="contact n2" />
+    <Label text="contact n3" />
+    <Label text="contact n4" />
+  </StackLayout>
+</Page>
