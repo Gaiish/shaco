@@ -1,2 +1,2 @@
 var application = require("application");
-application.start({ moduleName: "views/welcome/views" });
+application.start({ moduleName: "views/searchForContact/main" });

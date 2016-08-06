@@ -5,7 +5,7 @@
       <Label text="name of Owner of the visit Card or App user" col="0" />
     </GridLayout>
     <StackLayout>
-      <Label text="swipe to send it or shake the phone" />
+      <Label id="send" text="swipe to send it or shake the phone" tap="onTap" />
     </StackLayout>
   </StackLayout>
 </Page>

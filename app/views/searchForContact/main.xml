@@ -1,0 +1,11 @@
+<Page loaded="pageLoaded">
+  <StackLayout>
+    <SearchBar hint="search for a contact" />
+    <ListView items="{{ model }}">
+      <ListView.itemTemplate>
+        <Label text="{{name}}" />
+        <Label text="{{phone}}" />
+      </ListView.itemTemplate>
+    </ListView>
+  </StackLayout>
+</Page>
