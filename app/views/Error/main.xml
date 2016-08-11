@@ -1,0 +1,5 @@
+<Page>
+  <StackLayout>
+    <Label text="no fone share this contact with" />
+  </StackLayout>
+</Page>

@@ -1,7 +1,7 @@
 <Page>
   <StackLayout>
-    <Button text="a visit create card" />
-    <Button text="search for a contact" />
-    <Button text="view my visit card" />
+    <Button text="create a visit card" tap="create" />
+    <Button text="search for a contact" tap="search" />
+    <Button text="view my visit card" tap="display" />
   </StackLayout>
 </Page>

@@ -1,32 +1,35 @@
-var contacts = require("nativescript-contacts");
-//var ObservableArray = require("data/observable-array").ObservableArray;
-//var Observable = require("data/observable").Observable;
-var model = require("./main_model");
+/*var contacts = require("nativescript-contacts");
 
-contacts.getContact().then(function(args){
-  if (args.response === "selected") {
+
+exports.pageLoaded = function () {
+  contacts.getContact().then(function(args) {
     var contact = args.data;
-    model.name = contact.name.given;
-    console.log (contact.name.given+" "+contact.name.family);
-    model.phone = contact.phoneNumbers[0];
-  }
-});
-
-exports.pageLoaded = function (args) {
-  var page = args.object;
-  page.bindingContext = model;
-
-  //var pageData = new Observable({
-  //  contactList:
-  //});
-};
-
-exports.getContact = function (){
-  contacts.getContact().then(function(result){
-    var contact = result.data;
-    model.name= contact.name.given;
-    if (contact.phoneNumbers.length > 0){
-      model.phone = contact.phoneNumbers[0];
-    }
+    console.log(contact.name.given);
+    contact.phoneNumbers.forEach(function(phone){
+      console.log(phone.value);
+    });
   });
-}
+};
+*/
+var frame = require("ui/frame");
+var Page = require("ui/page").Page;
+var StackLayout = require("ui/layouts/stack-layout").StackLayout;
+var SearchBar = require("ui/search-bar").SearchBar;
+var Label = require("ui/label").Label;
+var contacts = require("nativescript-contacts");
+
+exports.createPage = function(){
+  var page = new Page();
+  var layout = new StackLayout();
+  var search = new SearchBar();
+  var label1 = new Label();
+
+  search.hint = "search a contact";
+  label1.text = "Contact1";
+  layout.addChild(search);
+  layout.addChild(label1);
+
+  page.content = layout;
+
+  return page;
+};
