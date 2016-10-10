@@ -1,0 +1,20 @@
+.page {
+  background-color: #FF7154;
+}
+
+.text {
+  padding: 10;
+  color: #F4FFE2;
+}
+
+#profile_pic{
+	padding:10;
+}
+
+#company_logo{
+	padding:20;
+}
+
+.btn{
+	background-color:#F4FFE2; 
+}

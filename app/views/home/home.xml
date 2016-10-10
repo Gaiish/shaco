@@ -1,6 +1,11 @@
-<Page>
+<Page class="page">
+  <Page.actionBar class="bar">
+    <ActionBar title="Shaco" class="bar" />
+  </Page.actionBar>
   <StackLayout>
-    <Button text="create a visit card" tap="create" />
+    <StackLayout class="vide">
+    </StackLayout>
+    <Button text=" + create a visit card" tap="create" />
     <Button text="search for a contact" tap="search" />
     <Button text="view my visit card" tap="display" />
   </StackLayout>

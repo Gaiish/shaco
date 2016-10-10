@@ -1,14 +1,22 @@
-<Page class="page">
-  <StackLayout>
-    <GridLayout columns="140,180" rows="40,40,40,40,40">
-      <Image src="res://recent" row="1" col="0" />
-      <Label text="Image_logo_company" row="0" col="1" class="text" />
-      <Label text="Name" class="text" row="2" col="0" class="text" />
-      <Label text="Office"  row="2" col="1" class="text" />
-      <Label text="Occupation" row="3" col="0" class="text" />
-      <Label text="Tel number" id="phone" row="3" col="1" class="text" />
-      <Label text="Email" id="email" row="4" col="1" class="text" />
+<Page class="page" loaded="onPageLoaded" actionBarHidden="true">
+  <Page.actionBar>
+    <ActionBar class="bar" title="Shaco" />
+  </Page.actionBar>
+  <ScrollView>
+    <StackLayout>
+    <!--<GridLayout columns="auto,*" rows="auto,auto,auto,auto,auto" id="grid">-->
+    <GridLayout columns="auto,*" rows="auto,auto,auto,auto,auto" id="grid">
+      <Image src="res://user_profile" row="1" col="0" id="profile_pic" tap="tapAction" />
+      <Image src="res://comp_logo" row="0" col="1" id="company_logo" tap="go" />
+      <Label row="2" col="0" id="names" class="text" />
+      <Label row="2" col="1" id="officeAddress" class="text" />
+      <Label text="Occupation" row="3" col="0" id="occupation" class="text" />
+      <Label text="Tel number" id="phone" row="3" col="1" id="tel" class="text" />
+      <Label text="Email" id="email" row="4" col="1" id="email" class="text" />
     </GridLayout>
+    <!--<Button text="roll data" tap="{{select}}" />-->
     <Button text="Share my visit Card >>>" />
+    <Button text="< Back" tap="back" />
   </StackLayout>
+  </ScrollView>
 </Page>

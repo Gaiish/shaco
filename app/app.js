@@ -1,2 +1,3 @@
 var application = require("application");
-application.start({ moduleName: "views/card_display/main" });
+//application.start({ moduleName: "views/welcome/welcome" });
+application.start({moduleName: "views/welcome/welcome"});

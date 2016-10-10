@@ -1,4 +1,20 @@
-<Page class="page">
+<Page class="page" tap="redirect">
+	<Page.actionBar>
+		<ActionBar title="Shaco">
+			<!--<ActionBar.titleView>
+				<StackLayout orientation="horizontal">
+					<Button text="as"/>
+					<Button text="b" />
+					<Button text="c" />
+				</StackLayout>
+			</ActionBar.titleView>-->
+			<ActionBar.actionItems>
+				<!--<ActionItem text="Sh" android.position="center" />-->
+				<ActionItem text="settings" android.position="popup" />
+			</ActionBar.actionItems>
+		</ActionBar>
+	</Page.actionBar>
+
   <StackLayout>
     <Label text="Welcome to" class="title" />
     <Label text="Shaco" class="app_name" />

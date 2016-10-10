@@ -1,12 +1,16 @@
-<Page>
-  <StackLayout>
-    <TextField text="Name" />
-    <TextField text="Tel number" />
-    <TextField text="Email" />
-    <TextField text="Occupation" />
-    <TextField text="Office address" />
-    <Button text="Company symbol" />
-    <Button text="Country flag" />
-    <Button text="Save" />
-  </StackLayout>
+<Page class="page" navigatingTo="onNavigatingTo">
+  <Page.ActionBar>
+    <ActionBar class="bar" title="Shaco" />
+  </Page.ActionBar>
+  <ScrollView>
+    <StackLayout>
+      <TextField hint="Name" text="{{names}}" class="text" />
+      <TextField hint="Email" keyboardType="email" text="{{email}}" autocorrect="false" autocapitalizationType="none"  class="text" />
+      <TextField hint="Tel number" text="{{tel}}" keyboardType="phone" autocorrect="false" autocapitalizationType="none" class="text" />
+      <TextField hint="Occupation" text="{{occupation}}" class="text" />
+      <TextField hint="Office address" text="{{officeAddress}}" class="text" />
+      <Button text="Save" tap="{{save}}" />
+      <Button text="< Back" tap="back" />
+    </StackLayout>
+  </ScrollView>
 </Page>

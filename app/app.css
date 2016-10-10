@@ -2,7 +2,7 @@
     font-size: 30
     horizontal-align: center;
     margin: 20;
-    color: #F4FFE2;
+    color: white;
 }
 
 .app_name {
@@ -10,11 +10,11 @@
   horizontal-align: center;
   margin: 20;
   font-family: fantasy;
-  color: #F4FFE2;
+  color: white;
 }
 
 .page {
-  background-color: #FF7154;
+  background-color: #00688B;
 }
 /*button {
     font-size: 42;
@@ -29,3 +29,6 @@
     text-align: center;
 }
 */
+.bar{
+  background-color: #00688B;
+}
